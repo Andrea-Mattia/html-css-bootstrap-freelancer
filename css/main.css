@@ -1,0 +1,30 @@
+/* GENERAL */
+body {
+    font-family: sans-serif;
+}
+
+/* UTILITIES */
+
+/* color */
+
+.bg_blue {
+    background: #2C3E50;
+}
+
+.white_color {
+    color: #fff;
+}
+
+.up_text {
+    text-transform: uppercase;
+}
+
+/* layout */
+h1.white_color {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content.white_color {
+    text-align: right;
+}
