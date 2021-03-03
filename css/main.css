@@ -48,13 +48,17 @@ body {
 
 .btn {
     display: inline-block;
-    min-width: 100px;
     padding: 10px;
     text-decoration: none;
     text-align: center;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
+}
+
+.btn_green {
+    background: green;
+    border: green;
 }
 
 /* MY STYLES */
