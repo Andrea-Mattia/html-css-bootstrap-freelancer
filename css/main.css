@@ -32,8 +32,29 @@ body {
     text-align: right;
 }
 
+.mg_t_b {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pd_t_b {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .brd-rad-10 {
     border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 /* MY STYLES */
