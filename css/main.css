@@ -11,20 +11,38 @@ body {
     background: #2C3E50;
 }
 
+.bg_green {
+    background: #1ABC9C;
+}
+
 .white_color {
     color: #fff;
 }
 
+/* layout */
 .up_text {
     text-transform: uppercase;
 }
 
-/* layout */
+.center_text {
+    text-align: center;
+}
+
+.right_text {
+    text-align: right;
+}
+
+.brd-rad-10 {
+    border-radius: 10px;
+}
+
+/* MY STYLES */
+
 h1.white_color {
-    font-size: 16px;
     font-weight: 600;
 }
 
-.content.white_color {
-    text-align: right;
+.portfolio .content {
+    /* only for placetolder */
+    background: red;
 }
