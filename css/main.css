@@ -46,6 +46,14 @@ body {
     padding-bottom: 1rem;
 }
 
+.pd_t {
+    padding-top: 1rem;
+}
+
+.pd_b {
+    padding-bottom: 1rem;
+}
+
 .brd-rad-10 {
     border-radius: 10px;
 }
@@ -60,8 +68,15 @@ body {
     border: green;
 }
 
+.sp-short {
+    display: inline-block;
+    width: 80px;
+    border: 2px solid;
+}
+
 /* MY STYLES */
 .navbar {
+    margin-bottom: 0;
     border: 0;
     border-radius: 0;
 }
@@ -79,7 +94,6 @@ body {
     color: #1ABC9C;
 }
 
-.portfolio .content {
-    /* only for placetolder */
-    background: red;
+.hero-img {
+    height: 250px;
 }
