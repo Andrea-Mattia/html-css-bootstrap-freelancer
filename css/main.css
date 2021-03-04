@@ -1,6 +1,12 @@
 /* GENERAL */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
 body {
     font-family: sans-serif;
+    padding-top: 50px;
 }
 
 /* UTILITIES */
@@ -61,11 +67,20 @@ body {
 .btn {
     color: #fff;
     border: 1px solid #fff;
+    transition: background .3s;
 }
 
 .btn_green {
     background: #1ABC9C;
     border: #1ABC9C;
+}
+
+.btn-hov:not(.btn_green):hover {
+    background: #eee;
+}
+
+.btn-hov:hover {
+    background: rgba(26,188,156, .50);
 }
 
 .sp-short {
@@ -83,16 +98,15 @@ body {
     border-radius: 0;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .ta-brand,
+.navbar-default .ta-header-nav > li > a {
     color: #fff;
+    transition: background .3s;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .ta-brand:hover,
+.navbar-default .ta-header-nav > li > a:hover {
+    background: rgba(0,0,0, .25);
     color: #1ABC9C;
 }
 
@@ -156,6 +170,12 @@ body {
 
 .registration-form textarea.form-control {
     height: 100px;
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form textarea:focus {
+    border-bottom: 1px solid #000;
 }
 
 /* FOOTER */

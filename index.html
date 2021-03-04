@@ -16,7 +16,7 @@
 
     <!-- HEADER -->
     <header class="manin_header">
-        <nav class="navbar navbar-default bg_blue">
+        <nav class="navbar navbar-default navbar-fixed-top bg_blue">
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
@@ -26,15 +26,15 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
+                <a class="navbar-brand text-uppercase ta-brand" href="#">start bootstrap</a>
               </div>
           
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="text-uppercase" href="#">portfolio</a></li>  
-                    <li><a class="text-uppercase" href="#">about</a></li>  
-                    <li><a class="text-uppercase" href="#">contacts</a></li>  
+                <ul class="nav navbar-nav navbar-right ta-header-nav">
+                    <li><a class="text-uppercase" href="#1">portfolio</a></li>  
+                    <li><a class="text-uppercase" href="#2">about</a></li>  
+                    <li><a class="text-uppercase" href="#3">contacts</a></li>  
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container -->
@@ -64,7 +64,7 @@
         </section>
 
         <!-- PORTFOLIO SECTION -->
-        <section class="portfolio center_text mg_t_b">
+        <section class="portfolio center_text mg_t_b" id="1">
             <div class="container">
                 <h3 class="text-uppercase">portfolio</h3>
                 <div class="pd_b">
@@ -114,7 +114,7 @@
         </section>
 
         <!-- ABOUT SECTION -->
-        <section class="about bg_green mg_t_b">
+        <section class="about bg_green mg_t_b" id="2">
             <div class="container white_color">
                 <h3 class="text-uppercase center_text">about</h3>
                 <div class="row">
@@ -129,14 +129,14 @@
                         </div>
                     </div>
                     <div class="col-xs-12 center_text">
-                        <a class="btn mg_t_b" href="#"><i class="fas fa-download"></i> Download</a>
+                        <a class="btn mg_t_b btn-hov" href="#"><i class="fas fa-download"></i> Download</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- CONTACT SECTION -->
-        <section class="contact mg_t_b pd_t_b">
+        <section class="contact mg_t_b pd_t_b" id="3">
             <div class="container">
                 <h3 class="text-uppercase center_text">contact me</h3>
                 <div class="row">
@@ -161,7 +161,7 @@
                                 <label for="message">Message</label>
                                 <textarea class="form-control" id="message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn_green">Send</button>
+                            <button type="submit" class="btn btn_green btn-hov">Send</button>
                         </form>
                     </div>
                 </div>
