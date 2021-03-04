@@ -75,6 +75,8 @@ body {
 }
 
 /* MY STYLES */
+
+/* NAVBAR */
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -98,7 +100,49 @@ body {
     height: 250px;
 }
 
-/* FORM */
+/* PORTFOLIO */
+.portfolio .pf-img .icon-div {
+    position: relative;
+    background: #1ABC9C;
+    border-radius: 6px;
+}
+
+.portfolio .pf-img img {
+    transition: opacity .3s;
+}
+
+.portfolio .pf-img img:hover {
+    opacity: .20;
+}
+
+.portfolio .icon-div .plus-icon {
+    display: none;
+    position: absolute;
+    font-size: 60px;
+}
+
+.portfolio .icon-div:hover .plus-icon {
+    display: block;
+    animation: move-up 0.15s linear forwards;
+}
+
+/* animation for plus icon */
+
+@keyframes move-up {
+    from {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0)
+    }
+
+    to {
+        bottom: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%)
+    }
+}
+
+/*CONTACT FORM */
 .registration-form input[type="text"],
 .registration-form input[type="email"],
 .registration-form textarea {
