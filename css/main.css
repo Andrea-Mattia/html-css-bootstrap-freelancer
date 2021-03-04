@@ -64,8 +64,8 @@ body {
 }
 
 .btn_green {
-    background: green;
-    border: green;
+    background: #1ABC9C;
+    border: #1ABC9C;
 }
 
 .sp-short {
@@ -96,4 +96,20 @@ body {
 
 .hero-img {
     height: 250px;
+}
+
+/* FORM */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form textarea {
+    height: 10px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.registration-form textarea.form-control {
+    height: 100px;
 }
