@@ -113,3 +113,21 @@ body {
 .registration-form textarea.form-control {
     height: 100px;
 }
+
+/* FOOTER */
+.main_foot ul li {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.main_foot ul li a {
+    color: #fff;
+}
+
+.main_foot p > a {
+    color: #1ABC9C;
+}
