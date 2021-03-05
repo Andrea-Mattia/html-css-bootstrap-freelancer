@@ -115,45 +115,49 @@ body {
 }
 
 /* PORTFOLIO */
-.portfolio .pf-img .icon-div {
+.portfolio .box-link {
+    display: block;
     position: relative;
-    background: #1ABC9C;
+    overflow: hidden;
     border-radius: 6px;
 }
 
-.portfolio .pf-img img {
-    transition: opacity .3s;
+.portfolio .pf-img .icon-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1ABC9C;
 }
 
-.portfolio .pf-img img:hover {
-    opacity: .20;
+.portfolio .pf-img .icon-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .3s;
+    background: rgba(26, 188, 156, .8);
 }
 
 .portfolio .icon-div .plus-icon {
-    display: none;
     position: absolute;
+    bottom: 0;
+    left: 50%;
     font-size: 60px;
+    transform: translate(-50%, 0);
+    transition: bottom .5s;
+}
+
+.portfolio .icon-div:hover {
+    opacity: 1;
 }
 
 .portfolio .icon-div:hover .plus-icon {
-    display: block;
-    animation: move-up 0.15s linear forwards;
-}
-
-/* animation for plus icon */
-
-@keyframes move-up {
-    from {
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 0)
-    }
-
-    to {
-        bottom: 30%;
-        left: 50%;
-        transform: translate(-50%, -30%)
-    }
+    bottom: 50%;
+    transform: translate(-50%, 50%)
 }
 
 /*CONTACT FORM */
