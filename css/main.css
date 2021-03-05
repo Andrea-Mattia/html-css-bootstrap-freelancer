@@ -89,6 +89,10 @@ body {
     border: 2px solid;
 }
 
+.white-star i {
+    vertical-align: middle;
+}
+
 /* MY STYLES */
 
 /* NAVBAR */
